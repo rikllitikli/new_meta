@@ -1,0 +1,600 @@
+<!doctype html>
+<html lang="en" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html"
+      xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Meta - Appetite Control</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/owl.theme.default.css">
+    <link rel="stylesheet" href="css/font.css">
+    <link rel="apple-touch-icon" sizes="120x120" href="icon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="icon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="icon/favicon-16x16.png">
+    <link rel="manifest" href="icon/site.webmanifest">
+    <link rel="mask-icon" href="icon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="header">
+    <div class="container">
+        <div class="row">
+            <nav class="navbar navbar-expand-lg navbar-light col-12">
+                <a class="navbar-brand col-lg-2 col-3" href="#">
+                    <div class="d-flex align-items-center">
+                        <img src="img/logo.png"/><p>Препарат похудения<br>
+                        от Оли Поляковой</p>
+                    </div></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse col-lg-10 d-lg-flex justify-content-between align-items-center" id="navbarNavAltMarkup">
+                    <div class="navbar-nav d-flex justify-content-center col-9">
+                        <ul class="d-lg-flex">
+                            <li><a href="#video">О препарате</a></li>
+                            <li><a href="#work">Применение</a></li>
+                            <li><a href="#composition">Об авторе</a></li>
+                            <li><a href="#composition">Заказать</a></li>
+                        </ul>
+                    </div>
+                    <a href="#0" class="botton" data-toggle="modal" data-target="#exampleModal">Оставить заявку</a>
+                </div>
+            </nav>
+        </div>
+    </div>
+</header>
+<section class="screen_one">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-7 left">
+                <h2>ГОТОВЬСЯ К ИДЕАЛЬНОЙ ФИГУРЕ
+                    ВМЕСТЕ С НОВЫМ ПРЕПАРАТОМ
+                    ОТ ОЛИ ПОЛЯКОВОЙ</h2>
+                <div class="text">
+                    <p>Быстрое похудение
+                        до -1 кг в день!</p>
+                </div>
+                <form name="order" action="thanks.php" method="post">
+                    <div class="meta d-lg-none d-block">
+                        <img src="img/meta.png"/>
+                    </div>
+                    <h3 class="d-sm-block d-none">Акционная цена</h3>
+                    <div class="d-flex flex-lg-row flex-column justify-content-lg-between align-items-sm-center mb-lg-3 mb-0">
+                        <h3 class="d-sm-none d-block">Акционная цена</h3>
+                        <div class="left_form">
+                            <p class="new_price"><span>75 грн</span> при заказе курса</p>
+                            <p class="old_price">Старая цена <span><strike>225 грн</strike></span></p>
+                        </div>
+                        <div class="right_form d-lg-block d-flex justify-content-end">
+                            <h4>Осталось <span>25</span> акционных упаковок</h4>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-lg-row flex-column justify-content-between align-items-center">
+                        <input name="name" type="text" placeholder="Имя">
+                        <input class="input-roulette" id="input-phone" pattern="^\+38\s[\(][0-9]{3}[\)]\s\d{3}[\-]\d{2}[\-]\d{2}$" name="phone" type="tel" required="" autocomplete="off" placeholder="Телефон" title="Формат: +38 (0XX) XXX-XX-XX" onclick="(function(event) {
+                                                    if (!event.target.value.length) {
+                                                        event.target.value = '+38';
+                                                    }
+                                                })(event)" oninput="(function(event) {
+                                                    const x = event.target.value.replace(/\D/g, '').match(/(\d{0,2})(\d{0})(\d{0,3})(\d{0,3})(\d{0,2})(\d{0,2})/);
+                                                    event.target.value = '+38' + (x[4] ? ' (' + x[3] + ') ' : '' + x[3]) + x[4] + (x[5] ? '-' + x[5] : '') + (x[6] ? '-' + x[6] : '');
+                                                })(event)">
+                    </div>
+                    <div class="d-flex justify-content-center">
+                        <button type="submit">Заказать</button>
+                    </div>
+                </form>
+            </div>
+            <div class="col-md-5 right">
+              <!--  <div class="plus">
+                    +
+                    <div class="women">
+                        <h3>АНИТА ВАЛЕРЬЕВНА ЛУЦЕНКО</h3>
+                        <h4>@anitasporty</h4>
+                        <ul>
+                            <li>•  Создатель препарата для похудения META – APPETITE control</li>
+                            <li>•  Более 3 млн подписчиков в соц.сетях</li>
+                            <li>•  Тренер и ведущая шоу «Зважені та щасливі»</li>
+                            <li>•  Автор книги о здоровом похудении «Ты просто WOW»</li>
+                            <li>•  Персональный тренер звёзд</li>
+                            <li>•  Мастер спорта по спортивной аэробике</li>
+                            <li>•  Многократная чемпионка Украины и Европы по аэробике и фитнесу</li>
+                            <li>•  Опыт работы более 20 лет</li>
+                        </ul>
+                    </div>
+                </div>-->
+
+                <p>Благодаря данному препарату я выгляжу сейчас
+                    именно так! Сложно поверить, но когда-то я имела
+                    лишний вес и стеснялась показаться на публике, пока ко мне в руки не попал этот волшебный продукт!</p>
+            </div>
+        </div>
+    </div>
+    <div class="meta d-lg-block d-none">
+        <img src="img/meta.png"/>
+    </div>
+    <div class="Arrow">
+        <img src="img/Arrow.png"/>
+    </div>
+    <div class="img_right d-lg-none d-block">
+        <img src="img/anite_baba.png"/>
+    </div>
+</section>
+<section class="screen_two">
+    <div class="container">
+        <div class="row">
+            <div class="no">
+                <img src="img/No.png"/>
+            </div>
+            <h2 class="col-12 text-center">ХОТИТЕ ПОХУДЕТЬ БЫСТРО И ДАЖЕ К НАМЕЧЕННОЙ ДАТЕ?</h2>
+            <div class="ml-auto mr-auto scr_two_body">
+                <div class="d-flex flex_container">
+                    <div>
+                        <img src="img/libra.png"/>
+                    </div>
+                    <div>
+                        <h3>УСТАЛИ СИДЕТЬ НА ДИЕТАХ?</h3>
+                        <p>не видите результата?</p>
+                    </div>
+                </div>
+                <div class="d-flex flex_container">
+                    <div>
+                        <img src="img/weight.png"/>
+                    </div>
+                    <div>
+                        <h3>УСТАЛИ СИДЕТЬ НА ДИЕТАХ?</h3>
+                        <p>не видите результата?</p>
+                    </div>
+                </div>
+                <div class="d-flex">
+                    <div>
+                        <img src="img/fitness.png"/>
+                    </div>
+                    <div>
+                        <h3>УСТАЛИ СИДЕТЬ НА ДИЕТАХ?</h3>
+                        <p>не видите результата?</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 d-flex justify-content-center img_scr_two">
+                <img src="img/bg_two_img.png"/>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="screen_three">
+    <div class="container">
+        <div class="row">
+            <h2 class="col-12 text-center">ТОГДА СКОРЕЕ СМОТРИТЕ ВИДЕО О МОЕЙ ИСТОРИИ ПОХУДЕНИЯ С ПОМОЩЬЮ META</h2>
+            <div class="scr_three">
+                <img src="img/scr_three.png"/>
+            </div>
+            <div class="offset-lg-6">
+                <h3>ТОЛЬКО ПРЕДСТАВЬТЕ СЕБЕ</h3>
+                    <div class="d-flex flex_container">
+                        <div>
+                            <img src="img/pngegg.png"/>
+                        </div>
+                        <div>
+                            <p>Каждое утро Вы просыпаетесь с чудесным настроением, кушаете на завтрак то, что любите,
+                                а не то, что предписывает очередная диета.</p>
+                        </div>
+                    </div>
+                <div class="d-flex flex_container">
+                    <div>
+                        <img src="img/pngegg.png"/>
+                    </div>
+                    <div>
+                        <p>Ваша фигура притягивает внимание мужчин. Ваши знакомые говорят, что Вы помолодели, а коллеги завидуют Вашей стройности.</p>
+                    </div>
+                </div>
+                <div class="d-flex flex_container">
+                    <div>
+                        <img src="img/pngegg.png"/>
+                    </div>
+                    <div>
+                        <p>Вы радуетесь жизни и кайфуете от своего отражения
+                            в зеркале..</p>
+                    </div>
+                </div>
+                <h3>Мечта? Невыполнимая цель? <span>Нет!
+                    С моим курсом «МЕТА APPETITE control» - это возможно!</span></h3>
+                <div class="d-flex flex_container">
+                    <div>
+                        <img src="img/pngegg.png"/>
+                    </div>
+                    <div>
+                        <p><span>-1 кг в сутки</span> - это реально с жиросжигающим эффектом на натуральной основе препарат META.</p>
+                    </div>
+                </div>
+                <div class="meta_two d-flex justify-content-center">
+                    <img src="img/Meta_logo_two.png"/>
+                </div>
+                <div class="button d-flex justify-content-center">
+                    <a href="#0">Заказать</a>
+                </div>
+            </div>
+            <div class="limon">
+                <img src="img/limon.png"/>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="scr_four">
+    <div class="container">
+        <div class="row">
+            <h2 class="col-12 text-center">ПОЧЕМУ НЕ ПОЛУЧАЕТСЯ ПОХУДЕТЬ?</h2>
+            <h3 class="col-12 text-center"><span>ПОЧЕМУ</span> ДИЕТЫ НЕ РАБОТАЮТ?</h3>
+            <h3 class="col-12 text-center"><span>ПОЧЕМУ</span> ТРЕНИРОВКИ НЕ ПОМОГАЮТ?</h3>
+            <div class="col-lg-6 d-flex">
+                <div class="one">
+                    <img src="img/text_one.png"/>
+                </div>
+                <div class="bg_body">
+                    <h4>Зависимость от углеводов</h4>
+                    <p>Тяга к сладкому как наркотик.
+                        Углеводы - главная причина неуменого аппетита, лишних каллорий и лишнего веса.
+                        Диеты не решают эту проблему, а усугубляют ее!
+                    </p>
+                </div>
+            </div>
+            <div class="col-lg-6 d-flex">
+                <div>
+                    <img src="img/text_two.png"/>
+                </div>
+                <div class="bg_body">
+                    <h4>Зашлакованность организма</h4>
+                    <p>Вдумайтесь - современный человек носит в себе 5-25 кг шлаковых накоплений! Невозможно эффективно худеть без очистки организма.
+                    </p>
+                </div>
+            </div>
+            <div class="col-lg-6 d-flex">
+                <div>
+                    <img src="img/text_three.png"/>
+                </div>
+                <div class="bg_body">
+                    <h4>Нервный стресс</h4>
+                    <p>Стресс провоцирует обжорство. Диет - серьёзный стресс. В 90% случаев диета заканчивается срывом и разрывом холодильника.
+                        Тренировки - также стресс.
+                    </p>
+                </div>
+            </div>
+            <div class="col-lg-6 d-flex">
+                <div>
+                    <img src="img/text_four.png"/>
+                </div>
+                <div class="bg_body">
+                    <h4>Порочный круг фитнеса</h4>
+                    <p>На фитнесе вы похуете ненадолго и то, в случае тяжелых, многочасовых тренировок. Пользы здоровью, как правило, такое похудение не несет.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="screen_five">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="text_four_two">
+                    <img src="img/text_four_two.png"/>
+                </div>
+                <h2>СТРАШНЫЕ ПОСЛЕДСТВИЯ ЛИШНЕГО ВЕСА</h2>
+                <div class="d-flex">
+                    <div class="elips">
+
+                    </div>
+                    <div>
+                        <p>Сердечно-сосудистые заболевания</p>
+                    </div>
+                </div>
+                <div class="d-flex">
+                    <div class="elips">
+
+                    </div>
+                    <div>
+                        <p>Сахарный диабет</p>
+                    </div>
+                </div>
+                <div class="d-flex">
+                    <div class="elips">
+
+                    </div>
+                    <div>
+                        <p>Гормональные сбои</p>
+                    </div>
+                </div>
+                <div class="d-flex">
+                    <div class="elips">
+
+                    </div>
+                    <div>
+                        <p>Болезни опорно-двигательного аппарата</p>
+                    </div>
+                </div>
+                <div class="d-flex">
+                    <div class="elips">
+
+                    </div>
+                    <div>
+                        <p>Проблемы с кишечником</p>
+                    </div>
+                </div>
+                <div class="d-flex">
+                    <div class="elips">
+
+                    </div>
+                    <div>
+                        <p>Рак</p>
+                    </div>
+                </div>
+            </div>
+            <div class="img_scr_five">
+                <img src="img/scr_five.png"/>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="screen_six">
+    <div class="container">
+        <div class="row">
+            <div class="limon">
+                <img src="img/limon.png"/>
+            </div>
+            <div class="offset-lg-6">
+                <h2><span>ОЛЯ ПОЛЯКОВА</span> ОБ «МЕТА APPETITE control»</h2>
+                <p>Meta - средство для похудения. Оно подходит всем, кто следит за здоровьем и хочет привести фигуру в порядок.</p>
+
+                <p>Секретное оружие в борьбе с лишним весом</p>
+
+                <p>Эффективный комплекс растений - с пиколинатом хрома держит аппетит под контролем - вы меньше думаете о еде и реже срываетесь на перекусы. Гидроксицитриновая кислота (HCA) отвечает за расщепление жира и помогает предотвратить его повторное накопление в организме. Вы не почувствуете упадка сил во время похудения, вас будут питать энергией собственные жировые запасы.</p>
+
+                <p>Ускорение метаболизма с заботой об организме</p>
+
+                <p>Примечательно, что Meta не обладает анорексигенными свойствами. Фруктовые экстракты в составе дарят важнейшие для здоровой жизни витамины и микроэлементы, наполняют энергией и ускоряют обменные процессы.</p>
+
+                   <p><span> Мы гордимся Беспрецендентой формулой Meta, это результат кропотливых исследований и долгих лет разработки, благодаря нам похудела очень много звёзд Украинской эстрады.</span></p>
+                <div class="botton d-flex justify-content-center">
+                    <a href="#0">Заказать</a>
+                </div>
+            </div>
+            <div class="img_six">
+                <img src="img/img_six.png"/>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="screen_seven">
+    <div class="container">
+         <div class="row">
+             <h2 class="col-12 text-center">СОСТАВ <span>META APPETITE</span> CONTROL</h2>
+             <div class="col-lg-6 d-flex align-items-center mb-5">
+                 <div>
+                    <h3>L-карнитин
+                    </h3>
+                     <p>Выводит опасные соединения, очищает кровь и снижает холестерин</p>
+                 </div>
+                 <div>
+                     <img src="img/seven_one.jpg"/>
+                 </div>
+             </div>
+             <div class="col-lg-6 d-flex align-items-center mb-5">
+                 <div>
+                     <h3>Пектин тайландского яблока</h3>
+                     <p>Улучшает микрофлору, притупляет голод.</p>
+                 </div>
+                 <div>
+                     <img src="img/seven_two.jpg"/>
+                 </div>
+             </div>
+             <div class="col-lg-6 d-flex align-items-center mb-5">
+                 <div>
+                     <h3>Сублимированный зелёный чай</h3>
+                     <p>Природный антиоксидант. Убыстряет липидный обмен.</p>
+                 </div>
+                 <div>
+                     <img src="img/seven_three.jpg"/>
+                 </div>
+             </div>
+             <div class="col-lg-6 d-flex align-items-center mb-5">
+                 <div>
+                     <h3>Гуггулстерон</h3>
+                     <p>Повышает уровень серотонина в крови, возмещает заряд бодрости и энергии, позволяя худеть комфортно и легко.</p>
+                 </div>
+                 <div>
+                     <img src="img/seven_foure.jpg"/>
+                 </div>
+             </div>
+             <div class="col-lg-6 d-flex align-items-center mb-5">
+                 <div>
+                     <h3>Линолевая кислота</h3>
+                     <p>Нормализует синтез гормонов, препятствует последующему набору веса.</p>
+                 </div>
+                 <div>
+                     <img src="img/seven_five.jpg"/>
+                 </div>
+             </div>
+             <div class="col-lg-6 d-flex align-items-center mb-5">
+                 <div>
+                     <h3>Пиколинатом хрома</h3>
+                     <p>Ускоряет процесс горения липидных клеток. Улучшает работу сердца и сосудов.</p>
+                 </div>
+                 <div>
+                     <img src="img/seven_six.jpg"/>
+                 </div>
+             </div>
+             <h2 class="col-12 text-center">Твой будущий результат с <span>Meta</span></h2>
+         </div>
+    </div>
+</section>
+<section class="screen_eit">
+    <div class="avokado">
+        <img src="img/avokado.png"/>
+    </div>
+    <div class="eit_img">
+        <img src="img/eit_img.png"/>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="offset-lg-6">
+                <div class="botton">
+                    <a href="#0">Заказать</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="screen_nine">
+    <div class="container">
+        <div class="row">
+            <h2 class="col-12 text-center">СЕРТИФИКАТЫ <span>META APPETITE</span> CONTROL</h2>
+            <div class="d-flex align-items-center col-12">
+                <div class="col-6 d-flex justify-content-center">
+                    <img src="img/sertivikat.jpg"/>
+                </div>
+                <div class="col-6 d-flex justify-content-center">
+                    <img src="img/sertivikat_two.jpg"/>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="screen_ten">
+    <div class="container">
+        <div class="row">
+            <h2 class="col-12 text-center">META – APPETITE CONTROL  ПОДДЕРЖИВАЮТ:</h2>
+            <div class="slider_two owl-carousel d-flex align-items-center screen_eight_carousel" id="anout_us">
+                <div class="d-flex">
+                    <a class="col-lg-12"><img src="img/owl_one.png"/></a>
+                </div>
+                <div class="d-flex">
+                    <a class="col-lg-12"><img src="img/owl_two.png"/></a>
+                </div>
+                <div class="d-flex">
+                    <a class="col-lg-12"><img src="img/owl_three.png"/></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="eleven">
+    <div class="container">
+        <div class="row">
+            <h2 class="col-12 text-center">ОТЗЫВЫ ТЕХ, КТО УЖЕ ПОХУДЕЛ С «META – APPETITE control»</h2>
+            <div class="slider_two owl-carousel d-flex align-items-center screen_eight_carousel" id="anout_us">
+                <div class="d-flex">
+                    <a class="col-lg-12"><img src="img/insta_one.jpg"/></a>
+                </div>
+                <div class="d-flex">
+                    <a class="col-lg-12"><img src="img/insta_two.jpg"/></a>
+                </div>
+                <div class="d-flex">
+                    <a class="col-lg-12"><img src="img/insta_three.jpg"/></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="twelve">
+    <div class="limon">
+        <img src="img/limon.png"/>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 left">
+                        <h2>ЗАКАЖИ<br>
+                            <span>«МЕТА APPETITE control»</span><br>
+                            ПО АКЦИОННОЙ ЦЕНЕ!</h2>
+                        <h3>И РЕШИ ВОПРОС СО СБРОСОМ ВЕСА УЖЕ В ПЕРВЫЕ ДНИ ПРИЕМА</h3>
+                        <div class="col-12 d-lg-block d-flex flex-row-reverse">
+                            <div class="col-lg-6 offset-lg-6 offset-0 col-8">
+                                <h6 class="d-lg-block d-none">Осталось 25<br> акционных упаковок</h6>
+                                <h4>Акционная цена</h4>
+                                <h5>75 грн</h5>
+                                <p>при заказе курса</p>
+                                <p>Старая цена <span><s>225 грн</s></span></p>
+
+                            </div>
+                            <div class="meta">
+                                <img src="img/Meta_logo_two.png"/>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 rigt">
+                        <h6 class="d-lg-none d-block">Осталось <span>25</span><br> акционных упаковок</h6>
+                        <form name="form_two" action="thanks.php" method="post" id="form">
+                            <h3>Введите Ваши данные для оформления заказа:</h3>
+                            <h4>До конца акции:</h4>
+                            <div class="d-flex justify-content-between flex_container">
+                                <div class="d-flex flex-column align-items-center">
+                                    <p1 id="hours"></p1>
+                                    <p>ЧАСЫ</p>
+                                </div>
+                                <div class="d-flex flex-column align-items-center">
+                                    <p1 id="minutes"></p1>
+                                    <p>МИНУТЫ</p>
+                                </div>
+                                <div class="d-flex flex-column align-items-center">
+                                    <p1 id="secondes"></p1>
+                                    <p>СЕКУНДЫ</p>
+                                </div>
+                            </div>
+                            <div class="d-flex flex-column align-items-center">
+                                <input name="name" type="text" placeholder="Ваше ФИО">
+                                <input class="input-roulette" id="input-phone" pattern="^\+38\s[\(][0-9]{3}[\)]\s\d{3}[\-]\d{2}[\-]\d{2}$" name="phone" type="tel" required="" autocomplete="off" placeholder="Телефон" title="Формат: +38 (0XX) XXX-XX-XX" onclick="(function(event) {
+                                                    if (!event.target.value.length) {
+                                                        event.target.value = '+38';
+                                                    }
+                                                })(event)" oninput="(function(event) {
+                                                    const x = event.target.value.replace(/\D/g, '').match(/(\d{0,2})(\d{0})(\d{0,3})(\d{0,3})(\d{0,2})(\d{0,2})/);
+                                                    event.target.value = '+38' + (x[4] ? ' (' + x[3] + ') ' : '' + x[3]) + x[4] + (x[5] ? '-' + x[5] : '') + (x[6] ? '-' + x[6] : '');
+                                                })(event)">
+                                <button>Заказать</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer_img">
+        <img src="img/footer_img.png"/>
+    </div>
+    <div class="avokado">
+        <img src="img/avokado.png"/>
+    </div>
+</section>
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 d-lg-flex align-items-center">
+                <div class="col-lg-4 d-flex justify-content-lg-start justify-content-center mb-3">
+                    <a href="#" class="col-12 d-flex align-items-center logo">
+                        <img src="img/logo.png"/><p>Препарат похудения<br>
+                        Аниты Луценко</p></a>
+                </div>
+                <div class="col-lg-4 d-flex justify-content-lg-end justify-content-center mb-3">
+                    <a href="../politika.html" target="_blank"><u><b>Политика конфиденциальности</b></u></a>
+                </div>
+                <div class="col-lg-4 d-flex justify-content-lg-end justify-content-center mb-3">
+                    <a href="#0" class="botton" data-toggle="modal" data-target="#exampleModal">Оставить заявку</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="https://code.jquery.com/jquery-2.2.4.min.js"
+        integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="https://kit.fontawesome.com/421ca2af13.js" crossorigin="anonymous"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
