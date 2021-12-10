@@ -396,17 +396,40 @@ header .botton:hover{
     }
 }
 @media (max-width: 767px) {
+    .screen_one .img_right{
+        position: relative;
+    }
     .screen_one .img_right img{
         position: absolute;
         right: 0;
-        top: 45px;
+       bottom: 90px;
         z-index: 1;
         max-width: 570px;
         width: 100%;
     }
+    .screen_one .img_right p{
+        position: absolute;
+        right: 20px;
+        bottom: 180px;
+        z-index: 5;
+        font-size: 12px;
+        font-weight: bold;
+        color: black;
+        max-width: 221px;
+    }
 }
+@media (max-width: 375px){
+    .screen_one .img_right img{
+        right: 0;
+        bottom: 90px;
+    }
 
-.screen_one .right .inst_img img{
+    .screen_one .img_right p{
+        right: 10px;
+        bottom: 166px;
+    }
+}
+    .screen_one .right .inst_img img{
     position: absolute;
     top: 106px;
     right: -78px;
