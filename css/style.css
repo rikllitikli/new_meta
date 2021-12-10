@@ -26,7 +26,7 @@ header {
         justify-content: center;
         align-items: center;
         text-align: center;
-        background-color: black;
+        background-color: #bea500;
         z-index: 80;
         padding: 30px 10px;
     }
@@ -576,6 +576,12 @@ header .botton:hover{
     max-width: 495px;
     width: 100%;
 }
+@media (max-width: 992px) {
+    .no img{
+        left: 0;
+        width: 85%;
+    }
+}
 .screen_two h2{
     color: black;
     font-size: 24px;
@@ -1000,6 +1006,8 @@ header .botton:hover{
 @media (max-width: 992px) {
     .screen_eit{
         background-image: url("../img/adaptive_two.png");
+        height: 506px;
+        background-position: center;
     }
 }
 .screen_eit .botton a{
@@ -1012,20 +1020,106 @@ header .botton:hover{
     border-radius: 10px;
     position: relative;
 }
+
+@media (max-width: 992px) {
+    .screen_eit .botton a{
+        position: absolute;
+        left: 34%;
+        bottom: 12px;
+    }
+}
+@media (max-width: 414px) {
+    .screen_eit .botton a{
+        position: absolute;
+        left: 29%;
+        bottom: 12px;
+    }
+}
+.screen_eit .meta img{
+    position: absolute;
+    right: 100px;
+    bottom: 24px;
+}
+@media (max-width: 992px) {
+    .screen_eit .meta img{
+        width: 90px;
+        right: 15px;
+        bottom: 65px;
+    }
+}
 .screen_eit .eit_img img{
     max-width: 740px;
     position: absolute;
     right: 28px;
     top: 70px;
 }
+@media (max-width: 992px) {
+    .screen_eit .eit_img img{
+        max-width: 220px;
+        right: 8px;
+    }
+}
+@media (max-width: 992px) {
+    .screen_eit .one img, .screen_eit .two img, .screen_eit .three img, .screen_eit .foure img, .screen_eit .five img {
+        position: absolute;
+        width: 200px;
+    }
+    .screen_eit .one img{
+        top: 48px;
+        left: 107px;
+        width: 233px;
+    }
+    .screen_eit .two img{
+        top: 300px;
+        left: 50px;
+    }
+    .screen_eit .three img{
+        top: 388px;
+        left: 20px;
+        width: 315px;
+    }
+    .screen_eit .five img{
+        bottom: 190px;
+        left: 0;
+        width: 350px;
+    }
+    .screen_eit .foure img{
+        bottom: 140px;
+        left: 54px;
+    }
+}
+@media (max-width: 320px) {
+    .screen_eit .one img{
+       width: 200px;
+    }
+    .screen_eit .five img{
+        width: 315px;
+    }
+    .screen_eit .three img{
+        width: 300px;
+        left: 0;
+    }
+}
 .screen_eit .avokado img{
     position: absolute;
     top: -90px;
     right: 40px;
 }
+@media (max-width: 992px) {
+    .screen_eit .avokado img{
+        width: 100px;
+        top: -37px;
+        right: 0;
+    }
+}
 .screen_nine{
     background-color: #E5E5E5;
     padding: 141px 0 62px;
+}
+@media (max-width: 992px) {
+    .screen_nine{
+        padding: 25px 0;
+    }
 }
 .screen_nine h2{
     color: black;
@@ -1035,10 +1129,28 @@ header .botton:hover{
 .screen_nine h2 span{
     color: #F5F13A;
 }
+.screen_nine img{
+    max-width: 360px;
 
+}
+@media (max-width: 992px) {
+    .screen_nine h2{
+        font-size: 20px;
+        margin-bottom: 22px;
+    }
+    .screen_nine img{
+        max-width: 360px;
+        width: 100%;
+    }
+}
 .screen_ten{
     padding: 62px 0 50px;
     background-color: #E5E5E5;
+}
+@media (max-width: 992px) {
+    .screen_ten{
+        padding: 25px 0;
+    }
 }
 .screen_ten h2{
     font-size: 22px;
@@ -1152,7 +1264,8 @@ header .botton:hover{
 
 @media (max-width: 540px) {
     .twelve{
-        padding: 30px 0 20px;
+        padding: 30px 0 0;
+        background-position: center;
     }
 }
 .twelve .left .meta img{
@@ -1165,8 +1278,8 @@ header .botton:hover{
 @media (max-width: 991px) {
     .twelve .left .meta img{
         position: relative;
-        top: 30px;
-        left: 0;
+        top: 63px;
+        left: 25px;
     }
 }
 .twelve .left h2{
@@ -1184,6 +1297,7 @@ header .botton:hover{
     .twelve .left h2{
         font-size: 20px;
         margin-bottom: 10px;
+        text-align: center;
     }
 }
 .twelve .left h3{
@@ -1195,7 +1309,8 @@ header .botton:hover{
 }
 @media (max-width: 540px) {
     .twelve .left h3{
-        font-size: 16px;
+        font-size: 20px;
+        text-align: center;
     }
 }
 .twelve .left h4{
@@ -1207,7 +1322,7 @@ header .botton:hover{
 }
 @media (max-width: 540px) {
     .twelve .left h4{
-        padding-left: 20px;
+        padding-left: 0;
     }
 }
 .twelve .left h5{
@@ -1217,7 +1332,12 @@ header .botton:hover{
     margin-bottom: 0;
     padding-left: 150px;
 }
-.twelve .left div p:nth-child(4){
+@media (max-width: 992px) {
+    .twelve .left h5{
+        padding-left: 0;
+    }
+}
+.twelve .left div p:nth-child(3){
     padding-left: 155px;
     font-size: 8px;
     color: white;
@@ -1225,17 +1345,22 @@ header .botton:hover{
     font-style: italic;
     margin-bottom: 10px;
 }
-.twelve .left div p:nth-child(5){
+@media (max-width: 992px) {
+    .twelve .left div p:nth-child(3){
+        padding-left: 0;
+    }
+}
+.twelve .left div p:nth-child(4){
     font-size: 12px;
     color: white;
     font-weight: 500;
     font-style: italic;
     margin-bottom: 33px;
-    padding-left: 103px;
+    padding-left: 96px;
 }
 @media (max-width: 540px) {
     .twelve .left div p:nth-child(4){
-        padding-left: 36px;
+        padding-left: 0;
     }
 }
 .twelve .left div p:nth-child(4) span{
@@ -1249,6 +1374,16 @@ header .botton:hover{
     font-weight: bold;
     text-align: right;
     padding-left: 20px;
+}
+.twelve .left h6 span{
+    color: #F5F13A;
+}
+@media (max-width: 992px) {
+    .twelve .left h6{
+        text-align: center;
+        padding-left: 0;
+        margin-bottom: 0;
+    }
 }
 .twelve .rigt h6{
     font-size: 20px;
@@ -1342,20 +1477,46 @@ header .botton:hover{
     position: absolute;
     bottom: 0;
     left: 75px;
+    max-width: 385px;
+    width: 100%;
+}
+@media (max-width: 992px) {
+    .twelve .footer_img img{
+        position: relative;
+        left: 0;
+    }
 }
 .twelve .avokado img{
     position: absolute;
     bottom: 0;
     right: 75px;
 }
+@media (max-width: 992px) {
+    .twelve .avokado img{
+        width: 110px;
+        left: -24px;
+        bottom: 330px;
+    }
+}
 .twelve .limon img{
     position: absolute;
     top: -70px;
     right: 15px;
 }
+@media (max-width: 992px) {
+    .twelve .limon img{
+        top: 510px;
+        right: 0;
+        width: 100px;
+    }
+}
 .twelve form .flex_container{
     max-width: 330px;
     margin: auto;
+}
+.twelve .adaptive{
+    position: relative;
+    right: 20px;
 }
 footer{
     background-color: white;
