@@ -1083,32 +1083,58 @@ header .botton:hover{
     }
 }
 @media (max-width: 992px) {
-    .screen_eit .one img, .screen_eit .two img, .screen_eit .three img, .screen_eit .foure img, .screen_eit .five img {
+    .screen_eit .one{
         position: absolute;
-        width: 200px;
-    }
-    .screen_eit .one img{
-        top: 48px;
+        top: 20px;
         left: 107px;
+
+        z-index: 11;
+    }
+
+    .screen_eit .one img{
         width: 233px;
     }
-    .screen_eit .two img{
-        top: 300px;
-        left: 50px;
+    .screen_eit .one img, .screen_eit .two img, .screen_eit .three img, .screen_eit .foure img, .screen_eit .five img {
+
+        width: 200px;
+    }
+
+    .screen_eit .two{
+        position: absolute;
+        top: 284px;
+        left: 43px;
+    }
+    .screen_eit .three{
+        position: absolute;
+        top: 377px;
+        left: 20px;
+
     }
     .screen_eit .three img{
-        top: 388px;
-        left: 20px;
         width: 315px;
     }
-    .screen_eit .five img{
+    .screen_eit .five{
+        position: absolute;
         bottom: 190px;
         left: 0;
+    }
+    .screen_eit .five img{
         width: 350px;
     }
-    .screen_eit .foure img{
+    .screen_eit .foure{
+        position: absolute;
         bottom: 140px;
         left: 54px;
+    }
+    .screen_eit .one p, .screen_eit .two p, .screen_eit .three p, .screen_eit .foure p, .screen_eit .five p{
+        color:white;
+        font-size: 12px;
+        margin-bottom: 0;
+        position: relative;
+        top: 10px;
+    }
+    .screen_eit .two p{
+        top: 25px;
     }
 }
 @media (max-width: 320px) {
